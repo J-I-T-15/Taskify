@@ -1,0 +1,6 @@
+{
+  "name": "project-management-backend",
+  "stage": "dev",
+  "region": "ap-south-1",
+  "main": "stacks/index.ts"
+}
