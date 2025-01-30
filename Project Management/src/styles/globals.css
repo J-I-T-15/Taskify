@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* In your global CSS (e.g., styles/globals.css) */
+
+@keyframes animateSphere1 {
+    0% {
+      transform: translate(0, 0) scale(1);
+    }
+    50% {
+      transform: translate(50px, 50px) scale(1.1);
+    }
+    100% {
+      transform: translate(0, 0) scale(1);
+    }
+  }
+  
+  @keyframes animateSphere2 {
+    0% {
+      transform: translate(0, 0) scale(1);
+    }
+    50% {
+      transform: translate(-50px, -50px) scale(1.1);
+    }
+    100% {
+      transform: translate(0, 0) scale(1);
+    }
+  }
+  
+  @keyframes animateSphere3 {
+    0% {
+      transform: translate(0, 0) scale(1);
+    }
+    50% {
+      transform: translate(30px, -30px) scale(1.1);
+    }
+    100% {
+      transform: translate(0, 0) scale(1);
+    }
+  }
+  
+  @keyframes animateSphere4 {
+    0% {
+      transform: translate(0, 0) scale(1);
+    }
+    50% {
+      transform: translate(-40px, 40px) scale(1.1);
+    }
+    100% {
+      transform: translate(0, 0) scale(1);
+    }
+  }
+  
+  .animate-sphere-1 {
+    animation: animateSphere1 6s ease-in-out infinite;
+  }
+  
+  .animate-sphere-2 {
+    animation: animateSphere2 6s ease-in-out infinite;
+  }
+  
+  .animate-sphere-3 {
+    animation: animateSphere3 6s ease-in-out infinite;
+  }
+  
+  .animate-sphere-4 {
+    animation: animateSphere4 6s ease-in-out infinite;
+  }
